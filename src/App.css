@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(30, 24, 24);
+}
+
+form {
+    width: 30vw;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.4);
+    padding: 3rem 2rem;
+    margin-top: 4rem;
+    border-radius: 10px;
+}
+
+h1 {
+    color: yellow;
+}
+
+hr {
+    border: none;
+    border-bottom: 2px solid yellow;
+    margin-top: 1.5rem;
+}
+
+input {
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    color: white;
+}
+
+input:focus {
+    border: none;
+    outline: solid blue;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    padding: 0 1rem;
+}
+
+.submit-btn {
+    padding: 0.8rem 2.5rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: 0.1s ease-in;
+
+}
+
+input::placeholder {
+    color: rgb(55, 55, 152);
+}
+
+.submit-btn:hover {
+    background-color: yellow;
+    color: black;
+}
